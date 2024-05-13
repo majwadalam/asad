@@ -1,0 +1,58 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #282c34;
+}
+
+.iphone {
+  width: 375px;
+  height: 667px;
+  border: 16px solid black;
+  border-radius: 36px;
+  padding: 12px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  margin-bottom: 20px;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.gallery img {
+  width: 75px;
+  height: 133px;
+  border-radius: 18px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.1);
+}
+
+input[type="file"] {
+  margin: 10px;
+}
+
+@media (max-width: 768px) {
+  .iphone {
+    width: 90%;
+    height: auto;
+    padding: 6%;
+    border-width: 8px;
+    border-radius: 18px;
+  }
+
+  .gallery img {
+    width: 20%;
+  }
+}
