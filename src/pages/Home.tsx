@@ -12,7 +12,7 @@ export default function HomeScreen() {
         }}
         className="h-full mx-4 my-10 flex flex-col items-center bg-gray-900 rounded-2xl pt-[25vh] w-[350px] max-w-[350px] md:mx-auto outline outline-[6px] outline-gray-800"
       >
-        <div className="w-2 top-10 absolute h-2 my-4 bg-black rounded-full"></div>
+        <div className="w-2 top-10 absolute h-2 my-4 bg-white rounded-full"></div>
         <h1 className="text-center text-2xl md:text-5xl md:py-10 py-4">
           Luminex
         </h1>
