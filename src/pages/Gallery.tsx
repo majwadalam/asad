@@ -27,7 +27,9 @@ export default function UploadImageScreen() {
   return (
     <div className="bg-black flex flex-col text-white h-[100vh] w-full">
       <div className="flex-1 mx-4 my-10 md:mb-10 flex flex-col items-center bg-gray-900 rounded-2xl pt-4 max-w-[350px] w-[350px] md:mx-auto outline outline-[6px] outline-gray-800">
-        <p className="mb-2 text-xl font-medium text-center">
+        <div className="w-2 top-10 absolute h-2 my-4 bg-black rounded-full"></div>
+
+        <p className="mb-2 mt-4 text-xl font-medium text-center">
           Current Cover Image Gallery
         </p>
         <div

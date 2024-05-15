@@ -5,7 +5,14 @@ export default function HomeScreen() {
 
   return (
     <div className="bg-black flex flex-col text-white h-[100vh] w-full">
-      <div className="h-full mx-4 my-10 flex flex-col items-center bg-gray-900 rounded-2xl pt-[20%] w-[350px] max-w-[350px] md:mx-auto outline outline-[6px] outline-gray-800">
+      <div
+        style={{
+          backgroundImage: "url('/img.jpg')",
+          backgroundSize: "cover",
+        }}
+        className="h-full mx-4 my-10 flex flex-col items-center bg-gray-900 rounded-2xl pt-[20%] w-[350px] max-w-[350px] md:mx-auto outline outline-[6px] outline-gray-800"
+      >
+        <div className="w-2 top-10 absolute h-2 my-4 bg-black rounded-full"></div>
         <h1 className="text-center text-2xl md:text-5xl md:py-10 py-4">
           Luminex
         </h1>
